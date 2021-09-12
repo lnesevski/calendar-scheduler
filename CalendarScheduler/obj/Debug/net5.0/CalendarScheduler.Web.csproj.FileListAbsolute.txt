@@ -95,6 +95,7 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\Calen
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\Google.Apis.Auth.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\Google.Apis.Calendar.v3.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\Google.Apis.Core.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\RestSharp.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\Files\credentials.json
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\Files\token.json
-D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\RestSharp.dll

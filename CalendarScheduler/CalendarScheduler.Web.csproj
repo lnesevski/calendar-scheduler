@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="DayPilot" Version="5.0.303" />
     <PackageReference Include="Google.Apis.Calendar.v3" Version="1.55.0.2410" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="5.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.9" />
