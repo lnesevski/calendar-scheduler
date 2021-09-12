@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CalendarScheduler.Service/1.0.0": {
+        "runtime": {
+          "CalendarScheduler.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalendarScheduler.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

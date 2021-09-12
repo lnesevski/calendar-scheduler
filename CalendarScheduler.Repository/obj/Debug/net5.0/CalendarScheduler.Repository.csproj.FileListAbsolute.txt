@@ -1,0 +1,12 @@
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\bin\Debug\net5.0\CalendarScheduler.Repository.deps.json
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\bin\Debug\net5.0\CalendarScheduler.Repository.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\bin\Debug\net5.0\ref\CalendarScheduler.Repository.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\bin\Debug\net5.0\CalendarScheduler.Repository.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\obj\Debug\net5.0\CalendarScheduler.Repository.csproj.AssemblyReference.cache
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\obj\Debug\net5.0\CalendarScheduler.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\obj\Debug\net5.0\CalendarScheduler.Repository.AssemblyInfoInputs.cache
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\obj\Debug\net5.0\CalendarScheduler.Repository.AssemblyInfo.cs
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\obj\Debug\net5.0\CalendarScheduler.Repository.csproj.CoreCompileInputs.cache
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\obj\Debug\net5.0\CalendarScheduler.Repository.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\obj\Debug\net5.0\ref\CalendarScheduler.Repository.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Repository\obj\Debug\net5.0\CalendarScheduler.Repository.pdb
