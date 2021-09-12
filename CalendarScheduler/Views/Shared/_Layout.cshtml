@@ -24,7 +24,10 @@
                         @if (SignInManager.IsSignedIn(User))
                         {
                             <li class="nav-item">
-                                <a class="nav-link btn btn-primary text-light" asp-area="" asp-controller="Home" asp-action="OauthRedirect">Grant Google Calendar Privileges</a>
+                                <a class="nav-link btn btn-outline-primary text-dark" asp-controller="Home" asp-action="OauthRedirect">Grant Google Calendar Privileges</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-outline-danger text-dark"  asp-controller="OAuth" asp-action="Revoke">Revoke Google Calendar Privileges</a>
                             </li>
                         }
                     </ul>

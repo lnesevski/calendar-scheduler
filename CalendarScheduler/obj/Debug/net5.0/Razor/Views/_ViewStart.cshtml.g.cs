@@ -21,13 +21,13 @@ using CalendarScheduler;
 #nullable disable
 #nullable restore
 #line 2 "D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\Views\_ViewImports.cshtml"
-using CalendarScheduler.Models;
+using CalendarScheduler.Domain.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f75b19b3393df3c6b54c7ad735645c4c67bc3fc6", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0f5506c28c9f8ae8aba6ba714a7fb5f85651b7f0", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

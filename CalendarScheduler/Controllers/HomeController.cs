@@ -1,13 +1,9 @@
-﻿using CalendarScheduler.Models;
+﻿using CalendarScheduler.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CalendarScheduler.Controllers
 {
@@ -34,7 +30,7 @@ namespace CalendarScheduler.Controllers
 
             var redirectUrl = "https://accounts.google.com/o/oauth2/v2/auth?" +
                               "scope=https://www.googleapis.com/auth/calendar+https://www.googleapis.com/auth/calendar.events&" + 
-                              "access_type=online&" +
+                              "access_type=offline&" +
                               "include_granted_scopes=true&" + 
                               "response_type=code&" +
                               "state=hellothere&" +

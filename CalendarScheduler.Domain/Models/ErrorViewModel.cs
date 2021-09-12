@@ -1,6 +1,6 @@
 using System;
 
-namespace CalendarScheduler.Models
+namespace CalendarScheduler.Domain.Models
 {
     public class ErrorViewModel
     {
