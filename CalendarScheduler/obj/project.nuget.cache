@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IQrAP8OmalVqaURgYDdPtdOpKnYns51WuYSeP4SA0T8W91nGs7GZj7QtJJmEIf73ZmU3k4QfG2O9zI9xuqhNuw==",
+  "dgSpecHash": "pSJEUp6oXI6CS8gkDf894OCkHrGAZqMma4uUUkaxcjdzG4rPn6vyfwcRxU7Jwv+sDdT3nQoy+qJdoo2QykpfZw==",
   "success": true,
   "projectFilePath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\luka_\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2410\\google.apis.calendar.v3.1.55.0.2410.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\google.apis.core\\1.55.0\\google.apis.core.1.55.0.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.9\\microsoft.aspnetcore.authentication.google.5.0.9.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.9\\microsoft.aspnetcore.cryptography.keyderivation.5.0.9.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.9\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.9.nupkg.sha512",
