@@ -15,7 +15,7 @@ namespace CalendarScheduler.Web.Controllers
         {
             if(string.IsNullOrWhiteSpace(error))
             {
-                this.GetTokens(code);
+                GetTokens(code);
             }
         }
 

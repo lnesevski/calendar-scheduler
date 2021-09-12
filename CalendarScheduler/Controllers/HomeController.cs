@@ -40,7 +40,7 @@ namespace CalendarScheduler.Controllers
                               "state=hellothere&" +
                               "redirect_uri=https://localhost:44351/oauth/callback&" + 
                               "client_id=" + client_id;
-
+            _logger.LogDebug("Redirect URL created");
             return Redirect(redirectUrl);
         }
 
