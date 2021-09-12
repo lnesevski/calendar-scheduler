@@ -20,13 +20,17 @@ namespace CalendarScheduler.Web.Controllers
         public ActionResult AllEvents()
         {
             var allEvents = new List<Event>();
+
             var tokenPath = Path.Combine(Directory.GetCurrentDirectory(), "Files", "token.json");
             var tokens = JObject.Parse(System.IO.File.ReadAllText(tokenPath));
+
+            var keyPath = Path.Combine(Directory.GetCurrentDirectory(), "Files", "apikey.json");
+            var key = JObject.Parse(System.IO.File.ReadAllText(keyPath))["key"].ToString();
 
             RestClient restClient = new RestClient();
             RestRequest request = new RestRequest();
 
-            request.AddQueryParameter("key", "AIzaSyAm8a-jvYiW3ZtNLHS6w9DK6PTZpouEysc");
+            request.AddQueryParameter("key", key);
             request.AddHeader("Authorization", "Bearer " + tokens["access_token"]);
             request.AddHeader("Accept", "application/json");
             foreach (Calendar calendar in AllCalendars())
@@ -57,10 +61,14 @@ namespace CalendarScheduler.Web.Controllers
             var tokenPath = Path.Combine(Directory.GetCurrentDirectory(), "Files", "token.json");
             var tokens = JObject.Parse(System.IO.File.ReadAllText(tokenPath));
 
+
+            var keyPath = Path.Combine(Directory.GetCurrentDirectory(), "Files", "apikey.json");
+            var key = JObject.Parse(System.IO.File.ReadAllText(keyPath))["key"].ToString();
+
             RestClient restClient = new RestClient();
             RestRequest request = new RestRequest();
 
-            request.AddQueryParameter("key", "AIzaSyAm8a-jvYiW3ZtNLHS6w9DK6PTZpouEysc");
+            request.AddQueryParameter("key", key);
             request.AddHeader("Authorization", "Bearer " + tokens["access_token"]);
             request.AddHeader("Accept", "application/json");
 
