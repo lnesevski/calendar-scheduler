@@ -9,10 +9,15 @@
             <div class="row">
                 
                 <div>
+                    <p> Id: @calendarEvent.Id</p>
                     <p>Summary: @calendarEvent.Summary</p>
                     <p>Description: @calendarEvent.Description</p>
-                    <p>Start: @(calendarEvent.Start.DateTime) @(calendarEvent.Start.TimeZone) </p>
-                    <p>End: @(calendarEvent.End.DateTime) @(calendarEvent.End.TimeZone) </p>
+                    @if(calendarEvent.Description != null && (calendarEvent.Description.Contains("holiday") || calendarEvent.Description.Contains("Observance")))
+                    {
+                        <p>Date: @calendarEvent.Start.date</p>
+                    }
+                    <p>Start: @calendarEvent.Start.dateTime @calendarEvent.Start.TimeZone</p>
+                    <p>End: @calendarEvent.End.dateTime @calendarEvent.End.TimeZone</p>
                 </div>
             </div>
         }

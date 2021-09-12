@@ -175,3 +175,4 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\Calen
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\CalendarEvent\AllEvents.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\CalendarEvent\GetAllCalendars.cshtml.g.cs
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\Files\apikey.json

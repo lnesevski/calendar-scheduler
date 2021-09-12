@@ -8,7 +8,8 @@ namespace CalendarScheduler.Domain.Models
 {
     public class EventDateTime
     {
-        public string DateTime { get; set; }
-        public string TimeZone { get; set; }
+        public DateTime date { get; set; }
+        public DateTime dateTime { get; set; }
+        public string TimeZone{ get; set; }
     }
 }
