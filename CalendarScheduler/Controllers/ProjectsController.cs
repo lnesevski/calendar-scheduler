@@ -26,14 +26,14 @@ namespace CalendarScheduler.Web.Controllers
         }
 
         // GET: Projects
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             return View(_projectService.GetAllProjectForUser(userId));
         }
 
         // GET: Projects/Details/5
-        public async Task<IActionResult> Details(Guid? id)
+        public IActionResult Details(Guid? id)
         {
             if (id == null)
             {
@@ -60,7 +60,7 @@ namespace CalendarScheduler.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Title,Description,Hours,WorkOnSaturdays,WorkOnSundays,Deadline,WorkStart,WorkEnd")] Project project)
+        public IActionResult Create([Bind("Title,Description,Hours,WorkOnSaturdays,WorkOnSundays,Deadline,WorkStart,WorkEnd")] Project project)
         {
             if (ModelState.IsValid)
             {
@@ -74,7 +74,7 @@ namespace CalendarScheduler.Web.Controllers
         }
 
         // GET: Projects/Edit/5
-        public async Task<IActionResult> Edit(Guid? id)
+        public IActionResult Edit(Guid? id)
         {
             if (id == null)
             {
@@ -94,7 +94,7 @@ namespace CalendarScheduler.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Title,Description,Hours,WorkOnSaturdays,WorkOnSundays,Deadline,WorkStart,WorkEnd")] Project project)
+        public IActionResult Edit(Guid id, [Bind("Title,Description,Hours,WorkOnSaturdays,WorkOnSundays,Deadline,WorkStart,WorkEnd")] Project project)
         {
             if (id != project.Id)
             {
@@ -124,14 +124,14 @@ namespace CalendarScheduler.Web.Controllers
         }
 
         // GET: Projects/Delete/5
-        public async Task<IActionResult> Delete(Guid? id)
+        public IActionResult Delete(Guid? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var project = _projectService.GetProject((Guid) id);
+            var project = _projectService.GetProject((Guid)id);
             if (project == null)
             {
                 return NotFound();
@@ -143,7 +143,7 @@ namespace CalendarScheduler.Web.Controllers
         // POST: Projects/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        public IActionResult DeleteConfirmed(Guid id)
         {
             var project = _projectService.GetProject(id);
             _projectService.Delete(project);
@@ -155,9 +155,10 @@ namespace CalendarScheduler.Web.Controllers
             return _projectService.GetProject(id) != null;
         }
 
-        public ActionResult ScheduleProject(Project project)
+        public IActionResult ScheduleProject(Guid id)
         {
-            return RedirectToAction("Index", "Projects");
+            var project = _projectService.GetProject(id);
+            return View();
         }
     }
 }

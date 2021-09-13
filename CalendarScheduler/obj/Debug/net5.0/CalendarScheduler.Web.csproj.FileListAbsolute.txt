@@ -358,3 +358,4 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\Cal
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Projects\Details.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Projects\Edit.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Projects\Index.cshtml.g.cs
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Projects\ScheduleProject.cshtml.g.cs
