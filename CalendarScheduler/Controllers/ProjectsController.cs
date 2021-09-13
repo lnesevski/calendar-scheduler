@@ -154,5 +154,10 @@ namespace CalendarScheduler.Web.Controllers
         {
             return _projectService.GetProject(id) != null;
         }
+
+        public ActionResult ScheduleProject(Project project)
+        {
+            return RedirectToAction("Index", "Projects");
+        }
     }
 }
