@@ -10,3 +10,15 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\Calen
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\ref\CalendarScheduler.Service.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\bin\Debug\net5.0\CalendarScheduler.Service.deps.json
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\bin\Debug\net5.0\CalendarScheduler.Service.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\bin\Debug\net5.0\ref\CalendarScheduler.Service.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\bin\Debug\net5.0\CalendarScheduler.Service.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.csproj.AssemblyReference.cache
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.AssemblyInfoInputs.cache
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.AssemblyInfo.cs
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.csproj.CoreCompileInputs.cache
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\ref\CalendarScheduler.Service.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.pdb

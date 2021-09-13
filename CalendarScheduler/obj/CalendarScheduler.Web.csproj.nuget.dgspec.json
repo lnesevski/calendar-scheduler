@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj": {}
+    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj": {}
   },
   "projects": {
-    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj": {
+    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj",
+        "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj",
         "projectName": "CalendarScheduler.Domain",
-        "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj",
+        "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj",
         "packagesPath": "C:\\Users\\luka_\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Domain\\obj\\",
+        "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luka_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,136 +58,14 @@
         }
       }
     },
-    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj": {
+    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj",
+        "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj",
         "projectName": "CalendarScheduler.Repository",
-        "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj",
+        "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj",
         "packagesPath": "C:\\Users\\luka_\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\luka_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj",
-        "projectName": "CalendarScheduler.Service",
-        "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj",
-        "packagesPath": "C:\\Users\\luka_\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\luka_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj",
-        "projectName": "CalendarScheduler.Web",
-        "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj",
-        "packagesPath": "C:\\Users\\luka_\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler\\obj\\",
+        "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luka_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,14 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj": {
-                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj"
-              },
-              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj": {
-                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj"
-              },
-              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj": {
-                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj"
+              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj": {
+                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj"
               }
             }
           }
@@ -226,10 +98,134 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "DayPilot": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.303, )"
+              "version": "[5.0.9, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj",
+        "projectName": "CalendarScheduler.Service",
+        "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj",
+        "packagesPath": "C:\\Users\\luka_\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luka_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj",
+        "projectName": "CalendarScheduler.Web",
+        "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj",
+        "packagesPath": "C:\\Users\\luka_\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luka_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj": {
+                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj"
+              },
+              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj": {
+                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj"
+              },
+              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj": {
+                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
             "Google.Apis.Calendar.v3": {
               "target": "Package",
               "version": "[1.55.0.2410, )"
@@ -242,23 +238,33 @@
               "target": "Package",
               "version": "[5.0.9, )"
             },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
               "target": "Package",
               "version": "[5.0.2, )"
             },

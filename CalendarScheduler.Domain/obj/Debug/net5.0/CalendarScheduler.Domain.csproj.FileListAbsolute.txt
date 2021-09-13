@@ -10,3 +10,15 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\Calen
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\ref\CalendarScheduler.Domain.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\bin\Debug\net5.0\CalendarScheduler.Domain.deps.json
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\bin\Debug\net5.0\CalendarScheduler.Domain.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\bin\Debug\net5.0\ref\CalendarScheduler.Domain.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\bin\Debug\net5.0\CalendarScheduler.Domain.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.AssemblyInfoInputs.cache
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.AssemblyInfo.cs
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.csproj.CoreCompileInputs.cache
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\ref\CalendarScheduler.Domain.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Domain\obj\Debug\net5.0\CalendarScheduler.Domain.csproj.AssemblyReference.cache

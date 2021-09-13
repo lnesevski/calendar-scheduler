@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "p1skUYHyDYRNYLovY9Lx+MV/EFPCeEIOoBo56v+dyl88D+xDOEyitQkbv1ZtdLgaYmP9QeHgRjZlnIfoJ3/1hA==",
+  "dgSpecHash": "HYkovrQd0BGWpbhDZo14zEE4Li//iVLa95W431fTPBvrilEAx7CmZatLiUP0+FT4rtCwvAnKeVw7odU8mm0eQg==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj",
+  "projectFilePath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Web.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\luka_\\.nuget\\packages\\daypilot\\5.0.303\\daypilot.5.0.303.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\google.apis\\1.55.0\\google.apis.1.55.0.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\google.apis.auth\\1.55.0\\google.apis.auth.1.55.0.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2410\\google.apis.calendar.v3.1.55.0.2410.nupkg.sha512",
@@ -33,10 +32,10 @@
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.9\\microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.9\\microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.9\\microsoft.entityframeworkcore.analyzers.5.0.9.nupkg.sha512",
-    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.9\\microsoft.entityframeworkcore.design.5.0.9.nupkg.sha512",
+    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.8\\microsoft.entityframeworkcore.design.5.0.8.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.9\\microsoft.entityframeworkcore.relational.5.0.9.nupkg.sha512",
-    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.9\\microsoft.entityframeworkcore.sqlserver.5.0.9.nupkg.sha512",
-    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.9\\microsoft.entityframeworkcore.tools.5.0.9.nupkg.sha512",
+    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.8\\microsoft.entityframeworkcore.sqlserver.5.0.8.nupkg.sha512",
+    "C:\\Users\\luka_\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.8\\microsoft.entityframeworkcore.tools.5.0.8.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
@@ -145,16 +144,5 @@
     "C:\\Users\\luka_\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\luka_\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'DayPilot 5.0.303' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "DayPilot",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -36,15 +36,16 @@
           "CalendarScheduler.Domain": "1.0.0",
           "CalendarScheduler.Repository": "1.0.0",
           "CalendarScheduler.Service": "1.0.0",
-          "DayPilot": "5.0.303",
           "Google.Apis.Calendar.v3": "1.55.0.2410",
           "Microsoft.AspNetCore.Authentication.Google": "5.0.9",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.9",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.9",
           "Microsoft.AspNetCore.Identity.UI": "5.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
-          "Microsoft.EntityFrameworkCore.Tools": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.8",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "5.0.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "5.0.2",
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "5.0.2",
           "RestSharp": "106.12.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -330,17 +331,6 @@
           "CalendarScheduler.Web.dll": {}
         }
       },
-      "DayPilot/5.0.303": {
-        "runtime": {
-          "lib/DayPilot.dll": {
-            "assemblyVersion": "5.0.303.0",
-            "fileVersion": "5.0.303.0"
-          }
-        },
-        "compile": {
-          "lib/DayPilot.dll": {}
-        }
-      },
       "Google.Apis/1.55.0": {
         "dependencies": {
           "Google.Apis.Core": "1.55.0"
@@ -410,9 +400,6 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
-        },
-        "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.Google/5.0.9": {
@@ -901,7 +888,7 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/5.0.9": {},
-      "Microsoft.EntityFrameworkCore.Design/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Design/5.0.8": {
         "dependencies": {
           "Humanizer.Core": "2.8.26",
           "Microsoft.CSharp": "4.7.0",
@@ -909,12 +896,9 @@
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "5.0.9.0",
-            "fileVersion": "5.0.921.36501"
+            "assemblyVersion": "5.0.8.0",
+            "fileVersion": "5.0.821.31512"
           }
-        },
-        "compile": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/5.0.9": {
@@ -932,24 +916,24 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.8": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.9"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "5.0.9.0",
-            "fileVersion": "5.0.921.36501"
+            "assemblyVersion": "5.0.8.0",
+            "fileVersion": "5.0.821.31512"
           }
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/5.0.9": {
+      "Microsoft.EntityFrameworkCore.Tools/5.0.8": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "5.0.9"
+          "Microsoft.EntityFrameworkCore.Design": "5.0.8"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
@@ -2042,9 +2026,9 @@
       },
       "CalendarScheduler.Repository/1.0.0": {
         "dependencies": {
+          "CalendarScheduler.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
         },
         "runtime": {
           "CalendarScheduler.Repository.dll": {}
@@ -3725,13 +3709,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DayPilot/5.0.303": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TpgkBj9kliqpqHR1w3uLY7XgmTccB2zZFCr/koTh3lghDUCNRB7h0xWYKz52MHJkA80pFh0CRBrG27vZN+ylvA==",
-      "path": "daypilot/5.0.303",
-      "hashPath": "daypilot.5.0.303.nupkg.sha512"
-    },
     "Google.Apis/1.55.0": {
       "type": "package",
       "serviceable": true,
@@ -3928,12 +3905,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/5.0.9",
       "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.9.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/5.0.9": {
+    "Microsoft.EntityFrameworkCore.Design/5.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eNf6vkQAdVkYMEADUrXTPtlgxw7EwkbU8jyaOEdz3J/3JFz2yzdVIwJg66RNMuoqDrktAG1bcR64YEys6DXVFw==",
-      "path": "microsoft.entityframeworkcore.design/5.0.9",
-      "hashPath": "microsoft.entityframeworkcore.design.5.0.9.nupkg.sha512"
+      "sha512": "sha512-GTAQ6Lr5XK5YV3/1AF/jLbnrkAsIhX8IhiYSnROHVIsCjij77chKdTl7JSFEe65QIJ1UKutGyKp15jGqLcBV7g==",
+      "path": "microsoft.entityframeworkcore.design/5.0.8",
+      "hashPath": "microsoft.entityframeworkcore.design.5.0.8.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.9": {
       "type": "package",
@@ -3942,19 +3919,19 @@
       "path": "microsoft.entityframeworkcore.relational/5.0.9",
       "hashPath": "microsoft.entityframeworkcore.relational.5.0.9.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WGKYDApx75QRQ8LecGoPi5tvwHM8CvHz383U4c9zfW2Pjz+yUNUL4XAzLRlkg9QyE7USGk4VnAVNS0sTXK4qVQ==",
-      "path": "microsoft.entityframeworkcore.sqlserver/5.0.9",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.5.0.9.nupkg.sha512"
+      "sha512": "sha512-kQbUHiJDqIm+LdY7SS/fm/W/eHCXUJjAJhMvTzSGtPuFGBN4S+RKfs8FiXXk0WKWxmDjXo4Dck4WDJLCXdv/Sw==",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.8",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.5.0.8.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/5.0.9": {
+    "Microsoft.EntityFrameworkCore.Tools/5.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BdNfn6IzyD6r6XpjnOn7HuWKryVzT6TnDIH8MZLD3d/wLG24V0BYB1Dyr6wnAqgGXXCZxJf77YES5nobge56aA==",
-      "path": "microsoft.entityframeworkcore.tools/5.0.9",
-      "hashPath": "microsoft.entityframeworkcore.tools.5.0.9.nupkg.sha512"
+      "sha512": "sha512-gINPFTfwmYXSz2Chn4eAxoC5AJmM0qtSMPtU0evLqLoIZ8E4jAxrBTwRIt2p/42Fczqav/V3tR6yXlq4tAAGiQ==",
+      "path": "microsoft.entityframeworkcore.tools/5.0.8",
+      "hashPath": "microsoft.entityframeworkcore.tools.5.0.8.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
       "type": "package",

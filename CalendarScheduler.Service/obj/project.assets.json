@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj",
+      "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj",
       "projectName": "CalendarScheduler.Service",
-      "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj",
+      "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\CalendarScheduler.Service.csproj",
       "packagesPath": "C:\\Users\\luka_\\.nuget\\packages\\",
-      "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Service\\obj\\",
+      "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luka_\\AppData\\Roaming\\NuGet\\NuGet.Config",

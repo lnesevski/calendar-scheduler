@@ -163,11 +163,11 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.9"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.2"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -1543,6 +1543,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "CalendarScheduler.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CalendarScheduler.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalendarScheduler.Domain.dll": {}
+        }
       }
     }
   },
@@ -1807,17 +1817,17 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
-      "sha512": "WGKYDApx75QRQ8LecGoPi5tvwHM8CvHz383U4c9zfW2Pjz+yUNUL4XAzLRlkg9QyE7USGk4VnAVNS0sTXK4qVQ==",
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.2": {
+      "sha512": "4s2Ydo9/TEj2qD4KceFrhnUZvavNsPHd2cNE47cu5lvGZzFY9GlxR2a6GnlB0maEDVGJdhJ4Pu0giXmvSGKlwA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/5.0.9",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.5.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -5848,13 +5858,18 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "CalendarScheduler.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CalendarScheduler.Domain/CalendarScheduler.Domain.csproj",
+      "msbuildProject": "../CalendarScheduler.Domain/CalendarScheduler.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CalendarScheduler.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.9",
-      "Microsoft.EntityFrameworkCore >= 5.0.9",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.9"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.2"
     ]
   },
   "packageFolders": {
@@ -5863,11 +5878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj",
+      "projectUniqueName": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj",
       "projectName": "CalendarScheduler.Repository",
-      "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj",
+      "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj",
       "packagesPath": "C:\\Users\\luka_\\.nuget\\packages\\",
-      "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler\\CalendarScheduler\\CalendarScheduler.Repository\\obj\\",
+      "outputPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luka_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5883,7 +5898,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj": {
+              "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5900,13 +5919,9 @@
             "target": "Package",
             "version": "[5.0.9, )"
           },
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[5.0.9, )"
-          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[5.0.9, )"
+            "version": "[5.0.2, )"
           }
         },
         "imports": [
