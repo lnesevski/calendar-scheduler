@@ -2038,6 +2038,10 @@
         }
       },
       "CalendarScheduler.Service/1.0.0": {
+        "dependencies": {
+          "CalendarScheduler.Domain": "1.0.0",
+          "CalendarScheduler.Repository": "1.0.0"
+        },
         "runtime": {
           "CalendarScheduler.Service.dll": {}
         },

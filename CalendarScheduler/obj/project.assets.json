@@ -2245,6 +2245,10 @@
       "CalendarScheduler.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CalendarScheduler.Domain": "1.0.0",
+          "CalendarScheduler.Repository": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CalendarScheduler.Service.dll": {}
         },

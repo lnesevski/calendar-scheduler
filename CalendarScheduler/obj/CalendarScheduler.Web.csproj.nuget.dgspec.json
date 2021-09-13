@@ -149,7 +149,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj": {
+                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Domain\\CalendarScheduler.Domain.csproj"
+              },
+              "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj": {
+                "projectPath": "D:\\Codes\\Integrated Systems\\IS-Project\\CalendarScheduler 2\\CalendarScheduler\\CalendarScheduler.Repository\\CalendarScheduler.Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

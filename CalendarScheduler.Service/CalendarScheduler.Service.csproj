@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Implementation\" />
-    <Folder Include="Interface\" />
+    <ProjectReference Include="..\CalendarScheduler.Domain\CalendarScheduler.Domain.csproj" />
+    <ProjectReference Include="..\CalendarScheduler.Repository\CalendarScheduler.Repository.csproj" />
   </ItemGroup>
 
 </Project>

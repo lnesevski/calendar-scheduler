@@ -10,11 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Implementation\" />
-    <Folder Include="Interface\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CalendarScheduler.Domain\CalendarScheduler.Domain.csproj" />
   </ItemGroup>
 

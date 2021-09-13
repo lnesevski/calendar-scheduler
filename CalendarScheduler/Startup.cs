@@ -1,4 +1,8 @@
 using CalendarScheduler.Repository;
+using CalendarScheduler.Repository.Implementation;
+using CalendarScheduler.Repository.Interface;
+using CalendarScheduler.Service.Implementation;
+using CalendarScheduler.Service.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -40,7 +44,11 @@ namespace CalendarScheduler
                      options.ClientId = Configuration["App:GoogleClientId"];
                      options.ClientSecret = Configuration["App:GoogleClientSecret"];
                  });
-            
+
+            services.AddScoped(typeof(IProjectRepository), typeof(ProjectRepository));
+
+            services.AddTransient<IProjectService, CalendarScheduler.Service.Implementation.ProjectService>();
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

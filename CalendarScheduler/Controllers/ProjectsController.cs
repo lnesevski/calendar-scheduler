@@ -9,24 +9,27 @@ using CalendarScheduler.Domain.Models;
 using CalendarScheduler.Repository;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
+using CalendarScheduler.Service.Implementation;
+using CalendarScheduler.Service.Interface;
 
 namespace CalendarScheduler.Web.Controllers
 {
     public class ProjectsController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IProjectService _projectService;
         private UserManager<IdentityUser> _userManager;
 
-        public ProjectsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        public ProjectsController(IProjectService projectService, UserManager<IdentityUser> userManager)
         {
-            _context = context;
+            _projectService = projectService;
             _userManager = userManager;
         }
 
         // GET: Projects
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Projects.ToListAsync());
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            return View(_projectService.GetAllProjectForUser(userId));
         }
 
         // GET: Projects/Details/5
@@ -37,8 +40,7 @@ namespace CalendarScheduler.Web.Controllers
                 return NotFound();
             }
 
-            var project = await _context.Projects
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var project = _projectService.GetProject((Guid)id);
             if (project == null)
             {
                 return NotFound();
@@ -65,8 +67,7 @@ namespace CalendarScheduler.Web.Controllers
                 project.Id = Guid.NewGuid();
                 project.UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-                _context.Add(project);
-                await _context.SaveChangesAsync();
+                this._projectService.Insert(project);
                 return RedirectToAction(nameof(Index));
             }
             return View(project);
@@ -80,7 +81,7 @@ namespace CalendarScheduler.Web.Controllers
                 return NotFound();
             }
 
-            var project = await _context.Projects.FindAsync(id);
+            var project = _projectService.GetProject((Guid)id);
             if (project == null)
             {
                 return NotFound();
@@ -104,8 +105,7 @@ namespace CalendarScheduler.Web.Controllers
             {
                 try
                 {
-                    _context.Update(project);
-                    await _context.SaveChangesAsync();
+                    _projectService.Update(project);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -131,8 +131,7 @@ namespace CalendarScheduler.Web.Controllers
                 return NotFound();
             }
 
-            var project = await _context.Projects
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var project = _projectService.GetProject((Guid) id);
             if (project == null)
             {
                 return NotFound();
@@ -146,15 +145,14 @@ namespace CalendarScheduler.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var project = await _context.Projects.FindAsync(id);
-            _context.Projects.Remove(project);
-            await _context.SaveChangesAsync();
+            var project = _projectService.GetProject(id);
+            _projectService.Delete(project);
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProjectExists(Guid id)
         {
-            return _context.Projects.Any(e => e.Id == id);
+            return _projectService.GetProject(id) != null;
         }
     }
 }

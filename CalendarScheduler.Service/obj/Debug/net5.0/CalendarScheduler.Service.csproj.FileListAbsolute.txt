@@ -22,3 +22,8 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\Cal
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\ref\CalendarScheduler.Service.dll
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\bin\Debug\net5.0\CalendarScheduler.Domain.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\bin\Debug\net5.0\CalendarScheduler.Repository.dll
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\bin\Debug\net5.0\CalendarScheduler.Domain.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\bin\Debug\net5.0\CalendarScheduler.Repository.pdb
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler.Service\obj\Debug\net5.0\CalendarScheduler.Service.csproj.CopyComplete
