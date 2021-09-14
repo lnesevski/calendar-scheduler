@@ -359,3 +359,4 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\Cal
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Projects\ScheduleProject.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\CalendarEvent\AllCalendars.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\CalendarEvent\AllEvents.cshtml.g.cs
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\bin\Debug\net5.0\NodaTime.dll

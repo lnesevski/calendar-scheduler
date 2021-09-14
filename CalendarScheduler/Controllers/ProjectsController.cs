@@ -17,6 +17,7 @@ using RestSharp;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using CalendarScheduler.Domain.DTO;
+using NodaTime;
 
 namespace CalendarScheduler.Web.Controllers
 {
@@ -163,6 +164,7 @@ namespace CalendarScheduler.Web.Controllers
 
         public IActionResult ScheduleProject(Guid id)
         {
+            var TimeZone = DateTimeZoneProviders.Tzdb.GetSystemDefault().ToString();
             var project = _projectService.GetProject(id);
             var events = GetAllEvents().Where(z =>
             {
@@ -289,11 +291,10 @@ namespace CalendarScheduler.Web.Controllers
                     return false;
                 }
             }
-            CreateEvents(project, conflictingEvents);
-            return true;
+           return CreateEvents(project, conflictingEvents);
         }
 
-        private void CreateEvents(Project project, List<Event> conflictingEvents)
+        private bool CreateEvents(Project project, List<Event> conflictingEvents)
         {
             var eventsToAdd = new List<Event>();
             long hoursLeft = project.Hours;
@@ -433,43 +434,46 @@ namespace CalendarScheduler.Web.Controllers
 
             }
 
-            CreateEventsOnCalendar(eventsToAdd);
+            return CreateEventsOnCalendar(eventsToAdd);
         }
 
 
-        private void CreateEventsOnCalendar(List<Event> events)
+        private bool CreateEventsOnCalendar(List<Event> events)
         {
+            var temp = true;
             foreach (Event item in events)
             {
-                CreateCalendarEvent(item);
+                temp = temp && CreateCalendarEvent(item);
             }
+
+            return temp;
         }
 
 
         private bool CreateCalendarEvent(Event eventToAdd)
         {
-
+            var TimeZone = DateTimeZoneProviders.Tzdb.GetSystemDefault().ToString();
+            eventToAdd.Start.TimeZone = TimeZone;
+            eventToAdd.End.TimeZone = TimeZone;
             var eventDto = new EventDTO()
             {
-                Id = eventToAdd.Id,
                 Summary = eventToAdd.Summary,
                 Description = eventToAdd.Description,
                 Start = new EventDateTimeString()
                 {
-                    timeZone = eventToAdd.Start.TimeZone,
+                    timeZone = TimeZone,
                     dateTime = eventToAdd.Start.dateTime.ToString()
                 },
                 End = new EventDateTimeString()
                 {
-                    timeZone = eventToAdd.End.TimeZone,
+                    timeZone = TimeZone,
                     dateTime = eventToAdd.End.dateTime.ToString()
                 }
 
             };
             var tokenFilePath = Path.Combine(Directory.GetCurrentDirectory(), "Files", "token.json");
             var tokens = JObject.Parse(System.IO.File.ReadAllText(tokenFilePath));
-
-            var calendarId = this.AllCalendarsList()[0].Id.Replace("#", "%23").Replace("@","%40");
+            var calendarId = this.AllCalendarsList()[0].Id.Replace("#", "%23").Replace("@", "%40");
 
             var keyPath = Path.Combine(Directory.GetCurrentDirectory(), "Files", "apikey.json");
             var apiKey = JObject.Parse(System.IO.File.ReadAllText(keyPath))["key"].ToString();
@@ -477,17 +481,17 @@ namespace CalendarScheduler.Web.Controllers
             RestClient restClient = new RestClient();
             RestRequest request = new RestRequest();
 
-            eventDto.Start.dateTime = DateTime.Parse(eventDto.Start.dateTime).ToString("yyyy-MM-dd'T'HH:mm:ss.fffk");
-            eventDto.End.dateTime = DateTime.Parse(eventDto.End.dateTime).ToString("yyyy-MM-dd'T'HH:mm:ss.fffk");
+            eventDto.Start.dateTime = DateTime.Parse(eventDto.Start.dateTime).ToString("yyyy-MM-dd'T'HH:mm:ss");
+            eventDto.End.dateTime = DateTime.Parse(eventDto.End.dateTime).ToString("yyyy-MM-dd'T'HH:mm:ss");
 
-            var model = JsonConvert.SerializeObject(eventToAdd, new JsonSerializerSettings()
+            var model = JsonConvert.SerializeObject(eventDto, new JsonSerializerSettings()
             {
                 ContractResolver = new CamelCasePropertyNamesContractResolver()
             });
 
             request.AddQueryParameter("key", apiKey);
             request.AddHeader("Authorization", "Bearer " + tokens["access_token"]);
-            request.AddHeader("Accept", "application.json");
+            request.AddHeader("Accept", "application/json");
             request.AddHeader("Content-Type", "application.json");
             request.AddParameter("application/json", model, ParameterType.RequestBody);
 

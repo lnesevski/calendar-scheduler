@@ -275,6 +275,10 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[106.12.0, )"

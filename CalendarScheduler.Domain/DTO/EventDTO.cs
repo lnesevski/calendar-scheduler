@@ -8,7 +8,6 @@ namespace CalendarScheduler.Domain.DTO
 {
     public class EventDTO
     {
-        public string Id { get; set; }
         public string Summary { get; set; }
         public string Description { get; set; }
         public EventDateTimeString Start { get; set; }
