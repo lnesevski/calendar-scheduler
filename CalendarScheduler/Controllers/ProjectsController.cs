@@ -313,8 +313,8 @@ namespace CalendarScheduler.Web.Controllers
 
 
                 //event covers timeslot fully
-                conflictingEvent = conflictingEvents.Find(z => z.Start.dateTime.Date <= (currentDate.Date + project.WorkStart.TimeOfDay)
-                                                && z.End.dateTime.Date >= (currentDate.Date + project.WorkEnd.TimeOfDay));
+                conflictingEvent = conflictingEvents.Find(z => z.Start.dateTime <= (currentDate.Date + project.WorkStart.TimeOfDay)
+                                                && z.End.dateTime >= (currentDate.Date + project.WorkEnd.TimeOfDay));
                 if (conflictingEvent != null)
                 {
                     continue;

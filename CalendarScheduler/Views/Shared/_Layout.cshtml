@@ -21,16 +21,18 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+
                         @if (SignInManager.IsSignedIn(User))
                         {
                             <li class="nav-item">
-                                <a class="nav-link btn btn-outline-primary text-dark" asp-controller="Home" asp-action="OauthRedirect">Grant Google Calendar Privileges</a>
+                                <a class="nav-link" asp-action="AllCalendars" asp-controller="CalendarEvent">View Calendar</a>
                             </li>
+
                             <li class="nav-item">
-                                <a class="nav-link btn btn-outline-danger text-dark"  asp-controller="OAuth" asp-action="Revoke">Revoke Google Calendar Privileges</a>
+                                <a  class="nav-link" asp-action="Index" asp-controller="Projects">My Projects</a>
                             </li>
                         }
-                    </ul>
+                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>

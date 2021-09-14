@@ -40,7 +40,7 @@ namespace CalendarScheduler.Web.Controllers
             if(response.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 System.IO.File.WriteAllText(tokenPath, response.Content);
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("CalendarEvent", "AllCalendars");
             }
 
             return View("Error");
