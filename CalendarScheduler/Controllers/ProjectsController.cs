@@ -303,9 +303,20 @@ namespace CalendarScheduler.Web.Controllers
             {
                 Event conflictingEvent = null;
 
-
                 // If today's free time slot for projects has passed, continue to tomorrow
                 if(currentDate.Date == project.WorkStart.Date && currentDate >= project.WorkStart)
+                {
+                    continue;
+                }
+
+                //is it saturday and is the project good for saturday?
+                if (currentDate.DayOfWeek == DayOfWeek.Saturday && !project.WorkOnSaturdays)
+                {
+                    continue;
+                }
+
+                //is it sunday and is the project good for sunday?
+                if (currentDate.DayOfWeek == DayOfWeek.Sunday && !project.WorkOnSundays)
                 {
                     continue;
                 }
@@ -326,7 +337,6 @@ namespace CalendarScheduler.Web.Controllers
                 {
                     continue;
                 }
-
 
                 //event covers start of timeslot, add from end of event to end of timeslot
                 conflictingEvent = conflictingEvents.Find(z => z.Start.dateTime <= (currentDate.Date + project.WorkStart.TimeOfDay)
