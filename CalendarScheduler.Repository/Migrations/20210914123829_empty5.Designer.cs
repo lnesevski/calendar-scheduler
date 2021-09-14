@@ -4,14 +4,16 @@ using CalendarScheduler.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CalendarScheduler.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210914123829_empty5")]
+    partial class empty5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,14 +37,13 @@ namespace CalendarScheduler.Data.Migrations
                         .HasColumnType("bigint");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("WorkEnd")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("WorkEnd")
+                        .HasColumnType("int");
 
                     b.Property<bool>("WorkOnSaturdays")
                         .HasColumnType("bit");
@@ -50,8 +51,8 @@ namespace CalendarScheduler.Data.Migrations
                     b.Property<bool>("WorkOnSundays")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("WorkStart")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("WorkStart")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
