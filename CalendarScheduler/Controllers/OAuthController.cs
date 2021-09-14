@@ -11,12 +11,14 @@ namespace CalendarScheduler.Web.Controllers
 {
     public class OAuthController : Controller
     {
-        public void Callback(string code, string error, string state)
+        public IActionResult Callback(string code, string error, string state)
         {
             if(string.IsNullOrWhiteSpace(error))
             {
-                GetTokens(code);
+               return GetTokens(code);
             }
+
+            return View("Index", "Home");
         }
 
         public ActionResult GetTokens(string code)
@@ -40,7 +42,7 @@ namespace CalendarScheduler.Web.Controllers
             if(response.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 System.IO.File.WriteAllText(tokenPath, response.Content);
-                return RedirectToAction("CalendarEvent", "AllCalendars");
+                return RedirectToAction("AllCalendars", "CalendarEvent");
             }
 
             return View("Error");

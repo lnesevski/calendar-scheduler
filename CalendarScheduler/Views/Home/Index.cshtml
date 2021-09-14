@@ -12,7 +12,7 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-        <button type="button" class="btn btn-primary" asp-controller="Home" asp-action="OauthRedirect">Grant Google Calendar Privileges</button>
+        <a type="button" class="btn btn-primary" asp-action="OauthRedirect">Grant Google Calendar Privileges</a>
    
-        <button type="button" class="btn btn-danger" asp-controller="OAuth" asp-action="Revoke">Revoke Google Calendar Privileges</button>
+        <a type="button" class="btn btn-danger" asp-controller="OAuth" asp-action="Revoke">Revoke Google Calendar Privileges</a>
 }

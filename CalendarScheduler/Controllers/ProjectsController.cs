@@ -299,9 +299,16 @@ namespace CalendarScheduler.Web.Controllers
             var eventsToAdd = new List<Event>();
             long hoursLeft = project.Hours;
 
-            for (DateTime currentDate = DateTime.Now; currentDate.Date < project.Deadline && hoursLeft > 0; currentDate = currentDate.AddDays(1))
+            for (DateTime currentDate = DateTime.Now; currentDate < project.Deadline && hoursLeft > 0; currentDate = currentDate.AddDays(1))
             {
                 Event conflictingEvent = null;
+
+
+                // If today's free time slot for projects has passed, continue to tomorrow
+                if(currentDate.Date == project.WorkStart.Date && currentDate >= project.WorkStart)
+                {
+                    continue;
+                }
 
                 //all day events 
                 conflictingEvent = conflictingEvents.Find(z => z.Start.date.Date == currentDate.Date);

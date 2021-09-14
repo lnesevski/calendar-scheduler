@@ -37,8 +37,9 @@ namespace CalendarScheduler.Controllers
                               "redirect_uri=https://localhost:44351/oauth/callback&" + 
                               "client_id=" + client_id;
             _logger.LogDebug("Redirect URL created");
-            // return Redirect(redirectUrl);
-            return RedirectToAction("Index", "Home");
+
+            return Redirect(redirectUrl);
+            //return RedirectToAction("Index", "Home");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
