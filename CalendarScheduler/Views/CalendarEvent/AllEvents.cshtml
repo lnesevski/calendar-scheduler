@@ -3,21 +3,33 @@
 
 @if (Model.Count != 0)
 {
-    <div>
+    <div class="container-fluid">
         @foreach (Event calendarEvent in Model)
         {
-            <div class="row">
-                
+            <div class="card col-md-8">
+
                 <div>
-                    <p> Id: @calendarEvent.Id</p>
-                    <p>Summary: @calendarEvent.Summary</p>
-                    <p>Description: @calendarEvent.Description</p>
-                    @if(calendarEvent.Description != null && (calendarEvent.Description.Contains("holiday") || calendarEvent.Description.Contains("Observance")))
-                    {
-                        <p>Date: @calendarEvent.Start.date</p>
-                    }
-                    <p>Start: @calendarEvent.Start.dateTime @calendarEvent.Start.TimeZone</p>
-                    <p>End: @calendarEvent.End.dateTime @calendarEvent.End.TimeZone</p>
+                    <div class="card-body">
+                        <h5 class="card-title">@calendarEvent.Summary</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <p>@calendarEvent.Description</p>
+                            </li>
+
+                            <li class="list-group-item">
+                                @if (calendarEvent.Description != null && (calendarEvent.Description.Contains("holiday") || calendarEvent.Description.Contains("Observance")))
+                                {
+                                    <h6 class="h6">All-day event</h6>
+                                    <p>Date: @calendarEvent.Start.date</p>
+                                }
+                                else
+                                {
+                                    <p>Start: @calendarEvent.Start.dateTime @calendarEvent.Start.TimeZone</p>
+                                    <p>End: @calendarEvent.End.dateTime @calendarEvent.End.TimeZone</p>
+                                }
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         }

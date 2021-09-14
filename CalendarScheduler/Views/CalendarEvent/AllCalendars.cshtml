@@ -1,0 +1,13 @@
+﻿@using CalendarScheduler.Domain.Models
+@model List<Calendar>
+@{ 
+    var uri = "https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&bgcolor=%23ffffff";
+    foreach(Calendar calendar in Model)
+    {
+        var formattedId = calendar.Id.Replace("#", "%23").Replace("@","%40");
+        uri = uri + "&src=" + formattedId;
+    }
+}
+<div class="container">
+    <iframe src="@uri" style="border:solid 1px #777; width:60vw; height: 70vh; margin:auto;" frameborder="0" scrolling="yes"></iframe>
+</div>

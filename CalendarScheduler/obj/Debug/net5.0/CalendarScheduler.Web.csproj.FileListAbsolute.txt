@@ -335,8 +335,6 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\Cal
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\CalendarScheduler.Web.TagHelpers.output.cache
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\CalendarScheduler.Web.RazorCoreGenerate.cache
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\CalendarEvent\AllEvents.cshtml.g.cs
-D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\CalendarEvent\GetAllCalendars.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -359,3 +357,5 @@ D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\Cal
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Projects\Edit.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Projects\Index.cshtml.g.cs
 D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\Projects\ScheduleProject.cshtml.g.cs
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\CalendarEvent\AllCalendars.cshtml.g.cs
+D:\Codes\Integrated Systems\IS-Project\CalendarScheduler 2\CalendarScheduler\CalendarScheduler\obj\Debug\net5.0\Razor\Views\CalendarEvent\AllEvents.cshtml.g.cs

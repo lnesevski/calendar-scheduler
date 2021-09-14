@@ -39,18 +39,18 @@
             </div>
             <div class="form-group">
                 <label asp-for="Deadline" class="control-label"></label>
-                <input asp-for="Deadline" class="form-control" />
+                <input asp-for="Deadline" min="today" class="form-control" />
                 <span asp-validation-for="Deadline" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="WorkStart" class="control-label"></label>
-                <input asp-for="WorkStart" class="form-control" />
+                <label asp-for="WorkStart" class="control-label">Workday Start (24 Hour format)</label>
+                <input asp-for="WorkStart" value="9" class="form-control" />
                 <span asp-validation-for="WorkStart" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="WorkEnd" class="control-label"></label>
-                <input asp-for="WorkEnd" class="form-control" />
-                <span asp-validation-for="WorkEnd" class="text-danger"></span>
+                <label asp-for="WorkEnd" class="control-label">Workday End (24 Hour format)</label>
+                <input asp-for="WorkEnd" value="17" class="form-control" />
+                <span asp-validation-for="WorkEnd"  class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

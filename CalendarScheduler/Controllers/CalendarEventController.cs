@@ -33,7 +33,7 @@ namespace CalendarScheduler.Web.Controllers
             request.AddQueryParameter("key", key);
             request.AddHeader("Authorization", "Bearer " + tokens["access_token"]);
             request.AddHeader("Accept", "application/json");
-            foreach (Calendar calendar in AllCalendars())
+            foreach (Calendar calendar in AllCalendarsList())
             {
                 var calendar_id = calendar.Id;
 
@@ -56,7 +56,12 @@ namespace CalendarScheduler.Web.Controllers
 
         }
 
-        public List<Calendar> AllCalendars()
+        public IActionResult AllCalendars()
+        {
+            return View(AllCalendarsList());
+        }
+
+        private List<Calendar> AllCalendarsList()
         {
             var tokenPath = Path.Combine(Directory.GetCurrentDirectory(), "Files", "token.json");
             var tokens = JObject.Parse(System.IO.File.ReadAllText(tokenPath));
