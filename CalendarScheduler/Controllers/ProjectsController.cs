@@ -101,7 +101,7 @@ namespace CalendarScheduler.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Guid id, [Bind("Title,Description,Hours,WorkOnSaturdays,WorkOnSundays,Deadline,WorkStart,WorkEnd")] Project project)
+        public IActionResult Edit(Guid id, [Bind("Id,UserId,Title,Description,Hours,WorkOnSaturdays,WorkOnSundays,Deadline,WorkStart,WorkEnd")] Project project)
         {
             if (id != project.Id)
             {
